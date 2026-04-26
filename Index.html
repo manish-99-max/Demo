@@ -1,0 +1,1567 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Advocate Basil Chandy Vavachan | Criminal & Civil Lawyer | High Court of Kerala</title>
+<meta name="description" content="Advocate Basil Chandy Vavachan – Criminal Lawyer at High Court of Kerala, Ernakulam. Expert in Criminal Law, Family Law, Civil Law, Writ Petitions & more.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&family=Montserrat:wght@300;400;500;600&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --navy: #0b1a2e;
+    --navy-mid: #122540;
+    --navy-light: #1a3560;
+    --gold: #c9a84c;
+    --gold-light: #e8c97a;
+    --gold-pale: #f5e9c8;
+    --cream: #faf7f0;
+    --white: #ffffff;
+    --text-dark: #1a1a2e;
+    --text-mid: #4a4a6a;
+    --text-light: #8a8aaa;
+    --border: rgba(201,168,76,0.25);
+  }
+
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+  html { scroll-behavior: smooth; }
+
+  body {
+    font-family: 'Montserrat', sans-serif;
+    background: var(--cream);
+    color: var(--text-dark);
+    overflow-x: hidden;
+  }
+
+  /* ── NAV ── */
+  nav {
+    position: fixed; top: 0; left: 0; width: 100%; z-index: 1000;
+    padding: 20px 60px;
+    display: flex; align-items: center; justify-content: space-between;
+    background: rgba(11,26,46,0.97);
+    backdrop-filter: blur(12px);
+    border-bottom: 1px solid var(--border);
+    transition: padding 0.3s;
+  }
+  nav.scrolled { padding: 14px 60px; }
+
+  .nav-logo {
+    display: flex; align-items: center; gap: 14px;
+    text-decoration: none;
+  }
+  .nav-logo-emblem {
+    width: 42px; height: 42px;
+    border: 1.5px solid var(--gold);
+    border-radius: 50%;
+    display: flex; align-items: center; justify-content: center;
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 20px; color: var(--gold); font-weight: 600;
+    flex-shrink: 0;
+  }
+  .nav-logo-text { line-height: 1.1; }
+  .nav-logo-name {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 15px; color: var(--white); font-weight: 600;
+    letter-spacing: 0.5px;
+  }
+  .nav-logo-sub {
+    font-size: 9px; color: var(--gold); letter-spacing: 2px;
+    text-transform: uppercase; font-weight: 300;
+  }
+
+  .nav-links { display: flex; gap: 36px; list-style: none; }
+  .nav-links a {
+    text-decoration: none; color: rgba(255,255,255,0.75);
+    font-size: 11px; letter-spacing: 2px; text-transform: uppercase;
+    font-weight: 500; transition: color 0.2s;
+    position: relative;
+  }
+  .nav-links a::after {
+    content: ''; position: absolute; bottom: -4px; left: 0;
+    width: 0; height: 1px; background: var(--gold);
+    transition: width 0.3s;
+  }
+  .nav-links a:hover { color: var(--gold); }
+  .nav-links a:hover::after { width: 100%; }
+
+  .nav-cta {
+    padding: 9px 22px;
+    border: 1px solid var(--gold);
+    color: var(--gold) !important;
+    border-radius: 2px;
+    font-size: 10px !important;
+    letter-spacing: 2px !important;
+    transition: all 0.3s !important;
+  }
+  .nav-cta:hover { background: var(--gold); color: var(--navy) !important; }
+  .nav-cta::after { display: none !important; }
+
+  .hamburger {
+    display: none; flex-direction: column; gap: 5px; cursor: pointer;
+    background: none; border: none; padding: 4px;
+  }
+  .hamburger span {
+    display: block; width: 24px; height: 2px;
+    background: var(--white); transition: all 0.3s;
+  }
+
+  .mobile-menu {
+    display: none; position: fixed; top: 0; left: 0;
+    width: 100%; height: 100vh;
+    background: var(--navy);
+    z-index: 999; padding: 100px 40px 40px;
+    flex-direction: column; gap: 30px;
+  }
+  .mobile-menu.open { display: flex; }
+  .mobile-menu a {
+    text-decoration: none; color: var(--white);
+    font-size: 22px;
+    font-family: 'Cormorant Garamond', serif;
+    border-bottom: 1px solid var(--border);
+    padding-bottom: 20px;
+  }
+  .mobile-menu a:hover { color: var(--gold); }
+
+  /* ── PAGES ── */
+  .page { display: none; }
+  .page.active { display: block; }
+
+  /* ── HERO ── */
+  #hero {
+    min-height: 100vh;
+    background: var(--navy);
+    position: relative; overflow: hidden;
+    display: flex; align-items: center;
+  }
+
+  .hero-bg-lines {
+    position: absolute; inset: 0;
+    background-image:
+      linear-gradient(rgba(201,168,76,0.04) 1px, transparent 1px),
+      linear-gradient(90deg, rgba(201,168,76,0.04) 1px, transparent 1px);
+    background-size: 60px 60px;
+  }
+
+  .hero-bg-circle {
+    position: absolute; right: -200px; top: 50%;
+    transform: translateY(-50%);
+    width: 700px; height: 700px;
+    border-radius: 50%;
+    border: 1px solid rgba(201,168,76,0.1);
+  }
+  .hero-bg-circle::before {
+    content: ''; position: absolute;
+    inset: 60px; border-radius: 50%;
+    border: 1px solid rgba(201,168,76,0.07);
+  }
+  .hero-bg-circle::after {
+    content: ''; position: absolute;
+    inset: 120px; border-radius: 50%;
+    border: 1px solid rgba(201,168,76,0.05);
+  }
+
+  .hero-content {
+    position: relative; z-index: 2;
+    padding: 140px 60px 100px;
+    max-width: 1200px;
+  }
+
+  .hero-badge {
+    display: inline-flex; align-items: center; gap: 10px;
+    border: 1px solid var(--border);
+    padding: 8px 18px; border-radius: 2px;
+    margin-bottom: 40px;
+    animation: fadeUp 0.8s ease both;
+  }
+  .hero-badge-dot {
+    width: 6px; height: 6px; background: var(--gold);
+    border-radius: 50%; animation: pulse 2s infinite;
+  }
+  .hero-badge span {
+    font-size: 10px; letter-spacing: 3px;
+    color: var(--gold); text-transform: uppercase; font-weight: 500;
+  }
+
+  @keyframes pulse {
+    0%,100% { opacity:1; transform:scale(1); }
+    50% { opacity:0.5; transform:scale(1.3); }
+  }
+
+  .hero-eyebrow {
+    font-size: 11px; letter-spacing: 4px;
+    color: var(--gold); text-transform: uppercase;
+    font-weight: 300; margin-bottom: 20px;
+    animation: fadeUp 0.9s ease 0.1s both;
+  }
+
+  .hero-title {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: clamp(46px, 7vw, 82px);
+    color: var(--white); font-weight: 300;
+    line-height: 1.05; margin-bottom: 12px;
+    animation: fadeUp 1s ease 0.2s both;
+  }
+  .hero-title em {
+    font-style: italic; color: var(--gold-light);
+  }
+  .hero-title-last {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: clamp(46px, 7vw, 82px);
+    color: var(--gold); font-weight: 600;
+    display: block; animation: fadeUp 1s ease 0.3s both;
+  }
+
+  .hero-rule {
+    width: 80px; height: 1px; background: var(--gold);
+    margin: 30px 0; animation: fadeUp 1s ease 0.4s both;
+  }
+
+  .hero-desc {
+    max-width: 520px;
+    color: rgba(255,255,255,0.65);
+    font-size: 14px; line-height: 1.9;
+    font-weight: 300; margin-bottom: 50px;
+    animation: fadeUp 1s ease 0.5s both;
+  }
+
+  .hero-actions {
+    display: flex; gap: 16px; flex-wrap: wrap;
+    animation: fadeUp 1s ease 0.6s both;
+  }
+
+  .btn-primary {
+    padding: 16px 36px;
+    background: var(--gold);
+    color: var(--navy); font-size: 11px;
+    letter-spacing: 2px; text-transform: uppercase;
+    font-weight: 600; border: none; cursor: pointer;
+    border-radius: 2px; transition: all 0.3s;
+    text-decoration: none; display: inline-block;
+  }
+  .btn-primary:hover {
+    background: var(--gold-light);
+    transform: translateY(-2px);
+    box-shadow: 0 8px 30px rgba(201,168,76,0.3);
+  }
+
+  .btn-outline {
+    padding: 16px 36px;
+    border: 1px solid rgba(255,255,255,0.3);
+    color: var(--white); font-size: 11px;
+    letter-spacing: 2px; text-transform: uppercase;
+    font-weight: 400; background: none; cursor: pointer;
+    border-radius: 2px; transition: all 0.3s;
+    text-decoration: none; display: inline-block;
+  }
+  .btn-outline:hover {
+    border-color: var(--gold); color: var(--gold);
+  }
+
+  .hero-stats {
+    position: absolute; bottom: 60px; right: 60px;
+    display: flex; gap: 50px;
+    animation: fadeUp 1s ease 0.7s both;
+  }
+  .stat { text-align: center; }
+  .stat-num {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 42px; color: var(--gold); font-weight: 300;
+    line-height: 1;
+  }
+  .stat-label {
+    font-size: 9px; letter-spacing: 2.5px;
+    color: rgba(255,255,255,0.4); text-transform: uppercase;
+    margin-top: 6px; font-weight: 300;
+  }
+
+  @keyframes fadeUp {
+    from { opacity:0; transform:translateY(30px); }
+    to { opacity:1; transform:translateY(0); }
+  }
+
+  /* ── SECTION COMMONS ── */
+  section { padding: 100px 60px; }
+
+  .section-eyebrow {
+    font-size: 10px; letter-spacing: 4px;
+    color: var(--gold); text-transform: uppercase;
+    font-weight: 500; margin-bottom: 14px;
+  }
+  .section-title {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: clamp(34px, 4vw, 56px);
+    color: var(--navy); font-weight: 300; line-height: 1.1;
+    margin-bottom: 20px;
+  }
+  .section-title em { font-style: italic; color: var(--gold); }
+  .section-rule {
+    width: 60px; height: 2px;
+    background: linear-gradient(90deg, var(--gold), transparent);
+    margin-bottom: 30px;
+  }
+  .section-desc {
+    color: var(--text-mid); font-size: 14px;
+    line-height: 1.9; font-weight: 300; max-width: 560px;
+  }
+
+  /* ── WHY US (HOMEPAGE) ── */
+  #why {
+    background: var(--white);
+    display: grid; grid-template-columns: 1fr 1fr; gap: 80px;
+    align-items: center;
+  }
+  .why-grid {
+    display: grid; grid-template-columns: 1fr 1fr; gap: 2px;
+  }
+  .why-card {
+    background: var(--cream); padding: 36px 28px;
+    border-top: 3px solid transparent;
+    transition: border-color 0.3s, transform 0.3s;
+    cursor: default;
+  }
+  .why-card:hover {
+    border-color: var(--gold);
+    transform: translateY(-4px);
+  }
+  .why-card-icon {
+    font-size: 28px; margin-bottom: 14px;
+  }
+  .why-card h4 {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 18px; color: var(--navy);
+    margin-bottom: 8px; font-weight: 600;
+  }
+  .why-card p {
+    font-size: 12px; color: var(--text-mid);
+    line-height: 1.7; font-weight: 300;
+  }
+
+  /* ── PRACTICE AREAS (HOME TEASER) ── */
+  #practice-home {
+    background: var(--navy);
+    text-align: center;
+    padding: 100px 60px;
+  }
+  #practice-home .section-title { color: var(--white); }
+  .practice-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 2px; margin-top: 60px; text-align: left;
+  }
+  .practice-card {
+    background: var(--navy-mid); padding: 40px 30px;
+    border-bottom: 3px solid transparent;
+    transition: all 0.3s; cursor: pointer;
+  }
+  .practice-card:hover {
+    border-bottom-color: var(--gold);
+    background: var(--navy-light);
+  }
+  .practice-card-num {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 48px; color: rgba(201,168,76,0.15);
+    font-weight: 600; line-height: 1; margin-bottom: 20px;
+  }
+  .practice-card h3 {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 22px; color: var(--white);
+    margin-bottom: 12px; font-weight: 400;
+  }
+  .practice-card p {
+    font-size: 12px; color: rgba(255,255,255,0.5);
+    line-height: 1.8; font-weight: 300;
+  }
+  .practice-card-arrow {
+    margin-top: 24px; color: var(--gold);
+    font-size: 18px; transition: transform 0.3s;
+  }
+  .practice-card:hover .practice-card-arrow { transform: translateX(6px); }
+
+  /* ── ABOUT PAGE ── */
+  #about-page { padding-top: 120px; }
+
+  .about-hero {
+    background: var(--navy); padding: 100px 60px;
+    display: grid; grid-template-columns: 1fr 1fr; gap: 80px;
+    align-items: center;
+  }
+  .about-hero .section-title { color: var(--white); margin-bottom: 24px; }
+  .about-hero .section-desc { color: rgba(255,255,255,0.6); }
+
+  .about-portrait {
+    position: relative;
+  }
+  .portrait-frame {
+    width: 100%; max-width: 400px;
+    aspect-ratio: 3/4;
+    background: var(--navy-mid);
+    border: 1px solid var(--border);
+    display: flex; align-items: center; justify-content: center;
+    position: relative; overflow: hidden;
+  }
+  .portrait-frame::before {
+    content: ''; position: absolute;
+    top: -20px; left: -20px; right: 20px; bottom: 20px;
+    border: 1px solid rgba(201,168,76,0.2);
+    z-index: -1;
+  }
+  .portrait-initials {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 80px; color: var(--gold);
+    opacity: 0.3; font-weight: 600;
+  }
+  .portrait-badge {
+    position: absolute; bottom: -16px; right: -16px;
+    background: var(--gold); color: var(--navy);
+    padding: 16px 20px; text-align: center;
+  }
+  .portrait-badge-num {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 32px; font-weight: 600; line-height: 1;
+  }
+  .portrait-badge-text {
+    font-size: 8px; letter-spacing: 1.5px;
+    text-transform: uppercase; font-weight: 600;
+  }
+
+  .about-details { padding: 80px 60px; }
+  .about-details-grid {
+    display: grid; grid-template-columns: 1fr 1fr; gap: 60px; margin-top: 60px;
+  }
+
+  .about-block h3 {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 26px; color: var(--navy);
+    margin-bottom: 20px; font-weight: 400;
+    padding-bottom: 12px; border-bottom: 1px solid var(--border);
+  }
+
+  .timeline { list-style: none; }
+  .timeline li {
+    display: flex; gap: 16px;
+    padding: 16px 0; border-bottom: 1px solid rgba(0,0,0,0.06);
+    align-items: flex-start;
+  }
+  .timeline-dot {
+    width: 8px; height: 8px; background: var(--gold);
+    border-radius: 50%; margin-top: 6px; flex-shrink: 0;
+  }
+  .timeline-content {}
+  .timeline-year {
+    font-size: 10px; letter-spacing: 2px; color: var(--gold);
+    text-transform: uppercase; font-weight: 500; margin-bottom: 4px;
+  }
+  .timeline-text {
+    font-size: 13px; color: var(--text-mid); line-height: 1.6; font-weight: 300;
+  }
+
+  .cert-list { list-style: none; }
+  .cert-list li {
+    padding: 14px 0; border-bottom: 1px solid rgba(0,0,0,0.06);
+    display: flex; align-items: center; gap: 12px;
+    font-size: 13px; color: var(--text-mid); font-weight: 300;
+  }
+  .cert-list li::before {
+    content: '✦'; color: var(--gold); font-size: 10px; flex-shrink: 0;
+  }
+
+  /* ── SERVICES PAGE ── */
+  #services-page { padding-top: 120px; }
+
+  .services-hero {
+    background: linear-gradient(135deg, var(--navy) 0%, var(--navy-light) 100%);
+    padding: 100px 60px; text-align: center;
+  }
+  .services-hero .section-title { color: var(--white); }
+  .services-hero .section-rule { margin: 20px auto 30px; }
+  .services-hero .section-desc { margin: 0 auto; color: rgba(255,255,255,0.6); }
+
+  .services-grid-section { padding: 80px 60px; background: var(--cream); }
+  .services-main-grid {
+    display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 30px; margin-top: 60px;
+  }
+  .service-card {
+    background: var(--white);
+    border: 1px solid rgba(0,0,0,0.06);
+    padding: 40px 36px;
+    position: relative; overflow: hidden;
+    transition: all 0.3s; cursor: default;
+  }
+  .service-card::before {
+    content: ''; position: absolute;
+    top: 0; left: 0; width: 4px; height: 0;
+    background: var(--gold); transition: height 0.4s;
+  }
+  .service-card:hover { transform: translateY(-6px); box-shadow: 0 20px 60px rgba(0,0,0,0.08); }
+  .service-card:hover::before { height: 100%; }
+
+  .service-icon {
+    font-size: 36px; margin-bottom: 20px;
+  }
+  .service-card h3 {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 24px; color: var(--navy);
+    margin-bottom: 14px; font-weight: 500;
+  }
+  .service-card p {
+    font-size: 13px; color: var(--text-mid);
+    line-height: 1.8; font-weight: 300; margin-bottom: 20px;
+  }
+  .service-tags { display: flex; flex-wrap: wrap; gap: 8px; }
+  .tag {
+    padding: 4px 12px; background: var(--cream);
+    border: 1px solid var(--border);
+    font-size: 10px; letter-spacing: 1px; color: var(--gold);
+    border-radius: 2px; text-transform: uppercase;
+  }
+
+  .courts-section {
+    background: var(--navy); padding: 80px 60px;
+  }
+  .courts-section .section-title { color: var(--white); margin-bottom: 50px; }
+  .courts-list {
+    display: flex; gap: 20px; flex-wrap: wrap; margin-top: 40px;
+  }
+  .court-badge {
+    border: 1px solid var(--border); padding: 16px 28px;
+    color: rgba(255,255,255,0.7); font-size: 13px;
+    display: flex; align-items: center; gap: 10px;
+    transition: all 0.3s;
+  }
+  .court-badge:hover {
+    border-color: var(--gold); color: var(--gold);
+    background: rgba(201,168,76,0.05);
+  }
+  .court-badge::before { content: '⚖'; }
+
+  /* ── BLOG/ARTICLES PAGE ── */
+  #blog-page { padding-top: 120px; }
+  .blog-hero {
+    background: var(--cream); padding: 80px 60px;
+    border-bottom: 1px solid rgba(0,0,0,0.08);
+  }
+  .blog-grid { padding: 80px 60px; }
+  .articles-grid {
+    display: grid; grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    gap: 30px; margin-top: 50px;
+  }
+  .article-card {
+    background: var(--white); border: 1px solid rgba(0,0,0,0.06);
+    overflow: hidden; transition: all 0.3s;
+  }
+  .article-card:hover { transform: translateY(-4px); box-shadow: 0 16px 50px rgba(0,0,0,0.08); }
+  .article-card-banner {
+    height: 6px; background: linear-gradient(90deg, var(--navy), var(--gold));
+  }
+  .article-card-body { padding: 32px; }
+  .article-tag {
+    font-size: 9px; letter-spacing: 2.5px; color: var(--gold);
+    text-transform: uppercase; font-weight: 600; margin-bottom: 14px;
+  }
+  .article-card h3 {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 22px; color: var(--navy);
+    line-height: 1.3; margin-bottom: 14px; font-weight: 500;
+  }
+  .article-card p {
+    font-size: 13px; color: var(--text-mid);
+    line-height: 1.8; font-weight: 300;
+  }
+  .article-meta {
+    display: flex; align-items: center; gap: 16px;
+    margin-top: 24px; padding-top: 20px;
+    border-top: 1px solid rgba(0,0,0,0.06);
+    font-size: 11px; color: var(--text-light);
+  }
+
+  /* ── CONTACT PAGE ── */
+  #contact-page { padding-top: 120px; }
+  .contact-hero {
+    background: var(--navy); padding: 80px 60px;
+    text-align: center;
+  }
+  .contact-hero .section-title { color: var(--white); }
+  .contact-hero .section-rule { margin: 16px auto 0; }
+
+  .contact-body {
+    padding: 80px 60px;
+    display: grid; grid-template-columns: 1fr 1.4fr; gap: 80px;
+  }
+
+  .contact-info h3 {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 28px; color: var(--navy);
+    margin-bottom: 30px; font-weight: 400;
+  }
+  .info-item {
+    display: flex; gap: 18px; margin-bottom: 28px; align-items: flex-start;
+  }
+  .info-icon {
+    width: 44px; height: 44px; flex-shrink: 0;
+    background: var(--navy); border-radius: 50%;
+    display: flex; align-items: center; justify-content: center;
+    font-size: 16px;
+  }
+  .info-label {
+    font-size: 9px; letter-spacing: 2px; color: var(--gold);
+    text-transform: uppercase; font-weight: 600; margin-bottom: 6px;
+  }
+  .info-value {
+    font-size: 14px; color: var(--text-mid);
+    line-height: 1.6; font-weight: 300;
+  }
+  .info-value a { color: var(--navy); text-decoration: none; }
+  .info-value a:hover { color: var(--gold); }
+
+  .contact-form-wrap { }
+  .form-title {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 32px; color: var(--navy);
+    margin-bottom: 8px; font-weight: 400;
+  }
+  .form-sub {
+    font-size: 13px; color: var(--text-mid);
+    margin-bottom: 36px; font-weight: 300;
+  }
+
+  .form-row { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; }
+  .form-group { margin-bottom: 20px; }
+  .form-group label {
+    display: block; font-size: 10px;
+    letter-spacing: 2px; color: var(--text-mid);
+    text-transform: uppercase; font-weight: 500; margin-bottom: 8px;
+  }
+  .form-group input,
+  .form-group select,
+  .form-group textarea {
+    width: 100%; padding: 14px 18px;
+    border: 1px solid rgba(0,0,0,0.12);
+    background: var(--cream);
+    font-family: 'Montserrat', sans-serif;
+    font-size: 13px; color: var(--text-dark); font-weight: 300;
+    outline: none; transition: border-color 0.2s;
+    border-radius: 2px;
+    appearance: none;
+  }
+  .form-group input:focus,
+  .form-group select:focus,
+  .form-group textarea:focus {
+    border-color: var(--gold);
+    background: var(--white);
+  }
+  .form-group textarea { resize: none; height: 130px; }
+  .form-notice {
+    font-size: 11px; color: var(--text-light);
+    margin-bottom: 24px; font-weight: 300; line-height: 1.6;
+  }
+
+  .success-msg {
+    background: rgba(201,168,76,0.1); border: 1px solid var(--gold);
+    padding: 16px 20px; border-radius: 2px;
+    font-size: 13px; color: var(--navy); display: none;
+    margin-top: 16px;
+  }
+
+  .map-section { padding: 0 60px 80px; }
+  .map-section h3 {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 28px; color: var(--navy);
+    margin-bottom: 24px; font-weight: 400;
+  }
+  .map-embed {
+    width: 100%; height: 380px;
+    border: 1px solid rgba(0,0,0,0.08);
+    background: var(--cream);
+    display: flex; align-items: center; justify-content: center;
+    position: relative; overflow: hidden;
+  }
+  .map-placeholder {
+    text-align: center; color: var(--text-mid);
+  }
+  .map-placeholder .map-icon { font-size: 48px; margin-bottom: 16px; }
+  .map-placeholder p { font-size: 14px; font-weight: 300; margin-bottom: 8px; }
+  .map-placeholder a {
+    color: var(--gold); text-decoration: none; font-size: 13px;
+    border-bottom: 1px solid var(--gold);
+    padding-bottom: 2px;
+  }
+
+  /* ── FOOTER ── */
+  footer {
+    background: var(--navy);
+    padding: 60px 60px 30px;
+    border-top: 1px solid var(--border);
+  }
+  .footer-grid {
+    display: grid; grid-template-columns: 2fr 1fr 1fr 1fr;
+    gap: 50px; margin-bottom: 50px;
+  }
+  .footer-brand .nav-logo-name { font-size: 18px; }
+  .footer-brand .nav-logo-sub { font-size: 10px; }
+  .footer-brand p {
+    margin-top: 16px; font-size: 12px;
+    color: rgba(255,255,255,0.4); line-height: 1.8; font-weight: 300;
+  }
+
+  .footer-col h4 {
+    font-size: 10px; letter-spacing: 2.5px;
+    color: var(--gold); text-transform: uppercase;
+    font-weight: 500; margin-bottom: 20px;
+  }
+  .footer-col ul { list-style: none; }
+  .footer-col ul li { margin-bottom: 12px; }
+  .footer-col ul li a, .footer-col ul li span {
+    text-decoration: none; font-size: 12px;
+    color: rgba(255,255,255,0.5); font-weight: 300;
+    transition: color 0.2s;
+  }
+  .footer-col ul li a:hover { color: var(--gold); cursor: pointer; }
+
+  .footer-bottom {
+    border-top: 1px solid rgba(255,255,255,0.06);
+    padding-top: 24px;
+    display: flex; justify-content: space-between; align-items: center;
+    font-size: 11px; color: rgba(255,255,255,0.25); font-weight: 300;
+  }
+
+  /* ── BREADCRUMB ── */
+  .breadcrumb {
+    padding: 14px 60px;
+    background: var(--cream); border-bottom: 1px solid rgba(0,0,0,0.06);
+    font-size: 11px; color: var(--text-light);
+    display: flex; gap: 8px; align-items: center;
+    margin-top: 82px;
+  }
+  .breadcrumb span { color: var(--gold); cursor: pointer; }
+  .breadcrumb span:hover { text-decoration: underline; }
+
+  /* ── SCROLL TO TOP ── */
+  .scroll-top {
+    position: fixed; bottom: 30px; right: 30px;
+    width: 44px; height: 44px;
+    background: var(--gold); color: var(--navy);
+    border: none; cursor: pointer; border-radius: 2px;
+    font-size: 18px; display: none;
+    align-items: center; justify-content: center;
+    z-index: 900; transition: all 0.3s;
+  }
+  .scroll-top.visible { display: flex; }
+  .scroll-top:hover { background: var(--gold-light); transform: translateY(-2px); }
+
+  /* ── RESPONSIVE ── */
+  @media (max-width: 900px) {
+    nav { padding: 16px 24px; }
+    nav.scrolled { padding: 12px 24px; }
+    .nav-links { display: none; }
+    .hamburger { display: flex; }
+    section, .about-hero, .services-hero, .contact-hero,
+    .contact-body, .map-section, .services-grid-section, .courts-section,
+    .about-details, .blog-hero, .blog-grid, footer { padding-left: 24px; padding-right: 24px; }
+    .hero-content { padding: 120px 24px 100px; }
+    .hero-stats { right: 24px; gap: 24px; }
+    #why { grid-template-columns: 1fr; gap: 40px; }
+    .about-hero { grid-template-columns: 1fr; }
+    .about-details-grid { grid-template-columns: 1fr; }
+    .contact-body { grid-template-columns: 1fr; gap: 50px; }
+    .footer-grid { grid-template-columns: 1fr 1fr; }
+    .form-row { grid-template-columns: 1fr; }
+    .breadcrumb { padding-left: 24px; padding-right: 24px; }
+    .hero-stats { position: static; flex-direction: row; justify-content: flex-start; margin-top: 40px; padding: 0; }
+  }
+
+  @media (max-width: 480px) {
+    .hero-stats { gap: 30px; }
+    .stat-num { font-size: 32px; }
+    .footer-grid { grid-template-columns: 1fr; }
+    .courts-list { flex-direction: column; }
+  }
+</style>
+</head>
+<body>
+
+<!-- NAV -->
+<nav id="navbar">
+  <a class="nav-logo" href="#" onclick="showPage('home')">
+    <div class="nav-logo-emblem">B</div>
+    <div class="nav-logo-text">
+      <div class="nav-logo-name">Adv. Basil Chandy Vavachan</div>
+      <div class="nav-logo-sub">Chandy Associates · High Court of Kerala</div>
+    </div>
+  </a>
+  <ul class="nav-links">
+    <li><a href="#" onclick="showPage('home')">Home</a></li>
+    <li><a href="#" onclick="showPage('about')">About</a></li>
+    <li><a href="#" onclick="showPage('services')">Practice Areas</a></li>
+    <li><a href="#" onclick="showPage('blog')">Insights</a></li>
+    <li><a href="#" onclick="showPage('contact')" class="nav-cta">Consult Now</a></li>
+  </ul>
+  <button class="hamburger" id="hamburger" onclick="toggleMobile()">
+    <span></span><span></span><span></span>
+  </button>
+</nav>
+
+<!-- MOBILE MENU -->
+<div class="mobile-menu" id="mobileMenu">
+  <a href="#" onclick="showPage('home');toggleMobile()">Home</a>
+  <a href="#" onclick="showPage('about');toggleMobile()">About</a>
+  <a href="#" onclick="showPage('services');toggleMobile()">Practice Areas</a>
+  <a href="#" onclick="showPage('blog');toggleMobile()">Insights</a>
+  <a href="#" onclick="showPage('contact');toggleMobile()">Consult Now</a>
+</div>
+
+<!-- ═══════════════ HOME PAGE ═══════════════ -->
+<div id="page-home" class="page active">
+
+  <!-- HERO -->
+  <section id="hero">
+    <div class="hero-bg-lines"></div>
+    <div class="hero-bg-circle"></div>
+
+    <div class="hero-content">
+      <div class="hero-badge">
+        <div class="hero-badge-dot"></div>
+        <span>Accepting New Clients · Kochi, Kerala</span>
+      </div>
+      <p class="hero-eyebrow">Chandy Associates — Est. in Ernakulam</p>
+      <h1 class="hero-title">
+        Justice Delivered<br>with <em>Precision</em><br>
+        <span class="hero-title-last">& Integrity.</span>
+      </h1>
+      <div class="hero-rule"></div>
+      <p class="hero-desc">
+        Advocate Basil Chandy Vavachan is a distinguished criminal and civil lawyer practising before the High Court of Kerala and various lower courts — offering fearless representation and result-oriented counsel across all major areas of law.
+      </p>
+      <div class="hero-actions">
+        <button class="btn-primary" onclick="showPage('contact')">Book a Consultation</button>
+        <button class="btn-outline" onclick="showPage('services')">Our Practice Areas</button>
+      </div>
+
+      <div class="hero-stats">
+        <div class="stat">
+          <div class="stat-num">10+</div>
+          <div class="stat-label">Years in Practice</div>
+        </div>
+        <div class="stat">
+          <div class="stat-num">500+</div>
+          <div class="stat-label">Cases Handled</div>
+        </div>
+        <div class="stat">
+          <div class="stat-num">LL.M</div>
+          <div class="stat-label">Criminal Law · Amity</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- WHY CHOOSE -->
+  <section id="why">
+    <div>
+      <p class="section-eyebrow">Why Choose Us</p>
+      <h2 class="section-title">A Lawyer Who <em>Fights</em> for You</h2>
+      <div class="section-rule"></div>
+      <p class="section-desc">
+        Every case is handled with the rigour, care, and personal attention it deserves. From the first consultation to the final verdict, you are never alone in your legal journey.
+      </p>
+      <br><br>
+      <button class="btn-primary" onclick="showPage('about')" style="margin-top:10px">Learn About Advocate Basil</button>
+    </div>
+    <div class="why-grid">
+      <div class="why-card">
+        <div class="why-card-icon">⚖️</div>
+        <h4>High Court Experience</h4>
+        <p>Extensive practice before the High Court of Kerala, Ernakulam, handling complex criminal and civil matters.</p>
+      </div>
+      <div class="why-card">
+        <div class="why-card-icon">🎓</div>
+        <h4>Expert Qualifications</h4>
+        <p>LL.M in Criminal Law from Amity University, Delhi (NCR) — post-graduate expertise applied to every case.</p>
+      </div>
+      <div class="why-card">
+        <div class="why-card-icon">🤝</div>
+        <h4>Client-First Approach</h4>
+        <p>Available throughout the legal process to address your concerns and guide you every step of the way.</p>
+      </div>
+      <div class="why-card">
+        <div class="why-card-icon">🏛️</div>
+        <h4>Multi-Court Practice</h4>
+        <p>Represents clients across High Court, Sessions Courts, Magistrate Courts and Consumer Forums in Kerala.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- PRACTICE AREAS TEASER -->
+  <section id="practice-home">
+    <p class="section-eyebrow" style="color:var(--gold)">Areas of Practice</p>
+    <h2 class="section-title">Comprehensive <em>Legal</em> Expertise</h2>
+    <div class="section-rule" style="margin: 16px auto 0;"></div>
+
+    <div class="practice-grid">
+      <div class="practice-card" onclick="showPage('services')">
+        <div class="practice-card-num">01</div>
+        <h3>Criminal Law</h3>
+        <p>Bail applications, criminal trials, appeals, cyber crimes, robbery, homicide defence and more.</p>
+        <div class="practice-card-arrow">→</div>
+      </div>
+      <div class="practice-card" onclick="showPage('services')">
+        <div class="practice-card-num">02</div>
+        <h3>Family & Divorce</h3>
+        <p>Matrimonial disputes, divorce proceedings, custody battles and domestic matter appeals.</p>
+        <div class="practice-card-arrow">→</div>
+      </div>
+      <div class="practice-card" onclick="showPage('services')">
+        <div class="practice-card-num">03</div>
+        <h3>Civil Law</h3>
+        <p>Property disputes, civil suits, debt recovery and contractual matters before civil courts.</p>
+        <div class="practice-card-arrow">→</div>
+      </div>
+      <div class="practice-card" onclick="showPage('services')">
+        <div class="practice-card-num">04</div>
+        <h3>Writ Petitions</h3>
+        <p>Constitutional writ matters before the High Court of Kerala including fundamental rights cases.</p>
+        <div class="practice-card-arrow">→</div>
+      </div>
+      <div class="practice-card" onclick="showPage('services')">
+        <div class="practice-card-num">05</div>
+        <h3>Consumer Law</h3>
+        <p>Consumer grievances, deficiency of service claims and consumer forum representations.</p>
+        <div class="practice-card-arrow">→</div>
+      </div>
+      <div class="practice-card" onclick="showPage('services')">
+        <div class="practice-card-num">06</div>
+        <h3>Banking & Cyber Law</h3>
+        <p>Banking disputes, cyber crime defence, online fraud matters and financial litigation.</p>
+        <div class="practice-card-arrow">→</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA BANNER -->
+  <section style="background:var(--gold); padding: 70px 60px; text-align:center;">
+    <p style="font-size:11px;letter-spacing:3px;color:var(--navy);text-transform:uppercase;font-weight:600;margin-bottom:16px;">Free Initial Consultation</p>
+    <h2 style="font-family:'Cormorant Garamond',serif;font-size:clamp(28px,4vw,50px);color:var(--navy);font-weight:300;margin-bottom:10px;">Facing a Legal Challenge?</h2>
+    <p style="font-size:14px;color:rgba(11,26,46,0.7);font-weight:300;margin-bottom:36px;max-width:500px;margin-left:auto;margin-right:auto;">Talk to Advocate Basil Chandy Vavachan today. Every case deserves expert attention — and yours is no different.</p>
+    <button onclick="showPage('contact')" style="padding:16px 40px;background:var(--navy);color:var(--white);border:none;font-family:'Montserrat',sans-serif;font-size:11px;letter-spacing:2px;text-transform:uppercase;font-weight:600;cursor:pointer;border-radius:2px;transition:all 0.3s;" onmouseover="this.style.background='#1a3560'" onmouseout="this.style.background='var(--navy)'">
+      Get in Touch
+    </button>
+  </section>
+
+  <!-- FOOTER INCLUDED BELOW -->
+</div>
+
+<!-- ═══════════════ ABOUT PAGE ═══════════════ -->
+<div id="page-about" class="page">
+  <div class="breadcrumb">
+    <span onclick="showPage('home')">Home</span> / About
+  </div>
+
+  <div class="about-hero">
+    <div>
+      <p class="section-eyebrow">About the Advocate</p>
+      <h2 class="section-title">Basil Chandy <em>Vavachan</em></h2>
+      <div class="section-rule"></div>
+      <p class="section-desc" style="color:rgba(255,255,255,0.6)">
+        An independent advocate practising before the High Court of Kerala, Ernakulam — dedicated to delivering fearless legal representation grounded in deep expertise and a commitment to justice.
+      </p>
+      <br>
+      <p class="section-desc" style="color:rgba(255,255,255,0.6)">
+        Grounded in a deep understanding of legal principles and bolstered by a reputation for excellence, Advocate Basil strives to advocate fiercely on behalf of every client — with a keen eye for detail and an unwavering commitment to optimal outcomes.
+      </p>
+    </div>
+    <div class="about-portrait">
+      <div class="portrait-frame">
+        <div class="portrait-initials">BCV</div>
+        <div class="portrait-badge">
+          <div class="portrait-badge-num">KHCAA</div>
+          <div class="portrait-badge-text">Member</div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="about-details">
+    <div style="max-width:700px;">
+      <p class="section-eyebrow">Background</p>
+      <h2 class="section-title">Education & <em>Credentials</em></h2>
+      <div class="section-rule"></div>
+      <p class="section-desc">A distinguished academic background in law, taxation, and criminal jurisprudence forms the foundation of a practice built on precision and results.</p>
+    </div>
+
+    <div class="about-details-grid">
+      <div class="about-block">
+        <h3>Academic Journey</h3>
+        <ul class="timeline">
+          <li>
+            <div class="timeline-dot"></div>
+            <div class="timeline-content">
+              <div class="timeline-year">Post-Graduate · LL.M</div>
+              <div class="timeline-text">Master of Laws in Criminal Law — Amity University, Delhi (NCR)</div>
+            </div>
+          </li>
+          <li>
+            <div class="timeline-dot"></div>
+            <div class="timeline-content">
+              <div class="timeline-year">Graduate · LL.B</div>
+              <div class="timeline-text">Bachelor of Laws — S.N. Law College, Poothotta, Ernakulam</div>
+            </div>
+          </li>
+          <li>
+            <div class="timeline-dot"></div>
+            <div class="timeline-content">
+              <div class="timeline-year">Undergraduate · B.Com</div>
+              <div class="timeline-text">Bachelor of Commerce (Taxation) — Mar Athanasius College, Kothamangalam</div>
+            </div>
+          </li>
+          <li>
+            <div class="timeline-dot"></div>
+            <div class="timeline-content">
+              <div class="timeline-year">Higher Secondary</div>
+              <div class="timeline-text">Mar Basil Higher Secondary School</div>
+            </div>
+          </li>
+        </ul>
+      </div>
+
+      <div class="about-block">
+        <h3>Certifications & Memberships</h3>
+        <ul class="cert-list">
+          <li>Kerala High Court Advocates' Association (KHCAA) — Member</li>
+          <li>Certificate in Online Dispute Resolution — NISM</li>
+          <li>Data Privacy Analyst Certificate Programme</li>
+          <li>HAZOP Study Certification — National Safety Council</li>
+          <li>Mandatory Supervisor Training — Indian Factories Act 1948</li>
+          <li>Anti-Ragging Awareness Programme Facilitator</li>
+        </ul>
+
+        <h3 style="margin-top: 40px;">Office</h3>
+        <ul class="cert-list">
+          <li>Chandy Associates, 2nd Floor, MC Building</li>
+          <li>Valavi Road, Near Town North Police Station</li>
+          <li>Ernakulam, Kochi, Kerala — 682018</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <!-- CTA -->
+  <section style="background:var(--navy);padding:70px 60px;text-align:center;">
+    <p class="section-eyebrow" style="margin-bottom:16px;">Work with Advocate Basil</p>
+    <h2 style="font-family:'Cormorant Garamond',serif;font-size:clamp(28px,4vw,46px);color:var(--white);font-weight:300;margin-bottom:30px;">Ready to Discuss Your Case?</h2>
+    <button class="btn-primary" onclick="showPage('contact')">Book a Consultation</button>
+  </section>
+</div>
+
+<!-- ═══════════════ SERVICES PAGE ═══════════════ -->
+<div id="page-services" class="page">
+  <div class="breadcrumb">
+    <span onclick="showPage('home')">Home</span> / Practice Areas
+  </div>
+
+  <div class="services-hero">
+    <p class="section-eyebrow">Legal Practice</p>
+    <h2 class="section-title">Areas of <em>Expertise</em></h2>
+    <div class="section-rule"></div>
+    <p class="section-desc">Comprehensive legal representation across criminal, civil, family, and constitutional law — before the High Court of Kerala and lower courts across the state.</p>
+  </div>
+
+  <div class="services-grid-section">
+    <div class="services-main-grid">
+
+      <div class="service-card">
+        <div class="service-icon">⚖️</div>
+        <h3>Criminal Law</h3>
+        <p>Skilled defence and prosecution in criminal matters of all levels — from bail hearings and anticipatory bail to full criminal trials, acquittals, and appeals before all competent courts.</p>
+        <div class="service-tags">
+          <span class="tag">Bail Applications</span>
+          <span class="tag">Criminal Trials</span>
+          <span class="tag">Criminal Appeals</span>
+          <span class="tag">Acquittal</span>
+        </div>
+      </div>
+
+      <div class="service-card">
+        <div class="service-icon">👨‍👩‍👧</div>
+        <h3>Family & Divorce Law</h3>
+        <p>Sensitive and strategic handling of matrimonial disputes, divorce proceedings, contested and mutual divorces, child custody battles, maintenance claims and appeals in family courts and the High Court.</p>
+        <div class="service-tags">
+          <span class="tag">Divorce Petitions</span>
+          <span class="tag">Child Custody</span>
+          <span class="tag">Maintenance</span>
+          <span class="tag">Matrimonial Appeals</span>
+        </div>
+      </div>
+
+      <div class="service-card">
+        <div class="service-icon">📜</div>
+        <h3>Civil Law</h3>
+        <p>Representation in civil suits involving property, contracts, injunctions, and declaratory reliefs. Handling recovery suits, execution proceedings, and civil appeals across all tiers of the judiciary.</p>
+        <div class="service-tags">
+          <span class="tag">Property Disputes</span>
+          <span class="tag">Civil Suits</span>
+          <span class="tag">Debt Recovery</span>
+          <span class="tag">Injunctions</span>
+        </div>
+      </div>
+
+      <div class="service-card">
+        <div class="service-icon">🏛️</div>
+        <h3>Writ Petitions</h3>
+        <p>Constitutional and statutory writ petitions — including habeas corpus, mandamus, certiorari, prohibition and quo warranto — filed before the Honourable High Court of Kerala.</p>
+        <div class="service-tags">
+          <span class="tag">Habeas Corpus</span>
+          <span class="tag">Mandamus</span>
+          <span class="tag">Constitutional Matters</span>
+          <span class="tag">Fundamental Rights</span>
+        </div>
+      </div>
+
+      <div class="service-card">
+        <div class="service-icon">💻</div>
+        <h3>Cyber Law & Banking</h3>
+        <p>Defence in cybercrime cases including online fraud, hacking, identity theft and digital evidence matters. Also handles banking disputes, cheque dishonour cases and financial litigation.</p>
+        <div class="service-tags">
+          <span class="tag">Cyber Crimes</span>
+          <span class="tag">Online Fraud</span>
+          <span class="tag">Cheque Dishonour</span>
+          <span class="tag">Banking Disputes</span>
+        </div>
+      </div>
+
+      <div class="service-card">
+        <div class="service-icon">🛡️</div>
+        <h3>Consumer Law</h3>
+        <p>Representing aggrieved consumers before the District Consumer Forum, State Consumer Commission, and appeals to the National Consumer Disputes Redressal Commission (NCDRC).</p>
+        <div class="service-tags">
+          <span class="tag">Consumer Forums</span>
+          <span class="tag">Deficiency of Service</span>
+          <span class="tag">Product Liability</span>
+          <span class="tag">Compensation Claims</span>
+        </div>
+      </div>
+
+      <div class="service-card">
+        <div class="service-icon">🚗</div>
+        <h3>Motor Accident Claims</h3>
+        <p>Expert representation in Motor Accident Claims Tribunal (MACT) cases — securing fair compensation for victims of road accidents and handling vehicular homicide defence.</p>
+        <div class="service-tags">
+          <span class="tag">MACT Claims</span>
+          <span class="tag">Vehicular Homicide</span>
+          <span class="tag">Compensation</span>
+        </div>
+      </div>
+
+      <div class="service-card">
+        <div class="service-icon">🏢</div>
+        <h3>Labour & Employment</h3>
+        <p>Handling workplace disputes, unfair termination, labour court proceedings, ESI/PF matters and employment-related statutory compliance issues.</p>
+        <div class="service-tags">
+          <span class="tag">Labour Disputes</span>
+          <span class="tag">Termination</span>
+          <span class="tag">ESI / PF</span>
+        </div>
+      </div>
+
+      <div class="service-card">
+        <div class="service-icon">🔒</div>
+        <h3>Robbery, Arson & Violent Crimes</h3>
+        <p>Specialised criminal defence in serious offences including robbery, dacoity, arson, homicide, and assault — with a focus on building robust defence strategies.</p>
+        <div class="service-tags">
+          <span class="tag">Robbery</span>
+          <span class="tag">Arson</span>
+          <span class="tag">Homicide Defence</span>
+          <span class="tag">Assault</span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="courts-section">
+    <p class="section-eyebrow">Jurisdictions</p>
+    <h2 class="section-title" style="color:var(--white);">Courts We <em>Practice</em> In</h2>
+    <div class="courts-list">
+      <div class="court-badge">High Court of Kerala, Ernakulam</div>
+      <div class="court-badge">Sessions Courts, Kerala</div>
+      <div class="court-badge">Chief Judicial Magistrate Courts</div>
+      <div class="court-badge">Judicial Magistrate Courts</div>
+      <div class="court-badge">Family Courts, Kerala</div>
+      <div class="court-badge">Consumer Disputes Forums</div>
+      <div class="court-badge">Motor Accident Claims Tribunals</div>
+      <div class="court-badge">Labour Courts, Kerala</div>
+    </div>
+  </div>
+</div>
+
+<!-- ═══════════════ INSIGHTS / BLOG PAGE ═══════════════ -->
+<div id="page-blog" class="page">
+  <div class="breadcrumb">
+    <span onclick="showPage('home')">Home</span> / Legal Insights
+  </div>
+
+  <div class="blog-hero">
+    <p class="section-eyebrow">Legal Insights</p>
+    <h2 class="section-title">Know Your <em>Rights</em></h2>
+    <div class="section-rule"></div>
+    <p class="section-desc">Educational articles and legal awareness content to help you understand your rights and navigate the legal system with confidence.</p>
+  </div>
+
+  <div class="blog-grid">
+    <div class="articles-grid">
+
+      <div class="article-card">
+        <div class="article-card-banner"></div>
+        <div class="article-card-body">
+          <div class="article-tag">Criminal Law</div>
+          <h3>Understanding Anticipatory Bail: Your Right Before Arrest</h3>
+          <p>Section 438 of the CrPC gives every person the right to apply for anticipatory bail — a crucial protection that many are unaware of. Know when and how to invoke it.</p>
+          <div class="article-meta">
+            <span>📅 Legal Awareness</span>
+            <span>·</span>
+            <span>5 min read</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="article-card">
+        <div class="article-card-banner"></div>
+        <div class="article-card-body">
+          <div class="article-tag">Family Law</div>
+          <h3>Divorce in India: Contested vs. Mutual — What You Need to Know</h3>
+          <p>The difference between contested and mutual divorce can significantly affect the timeline, cost, and emotional toll of your case. Here's a clear guide.</p>
+          <div class="article-meta">
+            <span>📅 Legal Awareness</span>
+            <span>·</span>
+            <span>7 min read</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="article-card">
+        <div class="article-card-banner"></div>
+        <div class="article-card-body">
+          <div class="article-tag">Cyber Law</div>
+          <h3>Online Fraud in India: Legal Remedies Under the IT Act</h3>
+          <p>Cybercrime is on the rise. If you've been a victim of online fraud, phishing, or identity theft — here are the legal remedies available to you under Indian law.</p>
+          <div class="article-meta">
+            <span>📅 Legal Awareness</span>
+            <span>·</span>
+            <span>6 min read</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="article-card">
+        <div class="article-card-banner"></div>
+        <div class="article-card-body">
+          <div class="article-tag">Consumer Law</div>
+          <h3>How to File a Consumer Complaint in Kerala: A Step-by-Step Guide</h3>
+          <p>Consumer protection law gives you powerful rights against defective products and deficient services. Learn how to file a complaint and what compensation you can claim.</p>
+          <div class="article-meta">
+            <span>📅 Legal Awareness</span>
+            <span>·</span>
+            <span>8 min read</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="article-card">
+        <div class="article-card-banner"></div>
+        <div class="article-card-body">
+          <div class="article-tag">Constitutional Law</div>
+          <h3>Writ Petitions Explained: When to Approach the High Court Directly</h3>
+          <p>Not every legal dispute goes through lower courts. Understand the five types of writs — and when the High Court of Kerala is your first and best option.</p>
+          <div class="article-meta">
+            <span>📅 Legal Awareness</span>
+            <span>·</span>
+            <span>6 min read</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="article-card">
+        <div class="article-card-banner"></div>
+        <div class="article-card-body">
+          <div class="article-tag">Criminal Law</div>
+          <h3>Accused of a Crime? Your Rights from Arrest to Trial</h3>
+          <p>Every accused person has fundamental rights guaranteed by the Constitution of India. This article breaks down what the police can and cannot do — and what you should demand.</p>
+          <div class="article-meta">
+            <span>📅 Legal Awareness</span>
+            <span>·</span>
+            <span>9 min read</span>
+          </div>
+        </div>
+      </div>
+
+    </div>
+    <p style="text-align:center;margin-top:50px;font-size:13px;color:var(--text-light);font-weight:300;">
+      For a detailed consultation on any legal matter, <button onclick="showPage('contact')" style="background:none;border:none;color:var(--gold);cursor:pointer;font-size:13px;font-family:'Montserrat',sans-serif;text-decoration:underline;">contact our office directly</button>.
+    </p>
+  </div>
+</div>
+
+<!-- ═══════════════ CONTACT PAGE ═══════════════ -->
+<div id="page-contact" class="page">
+  <div class="breadcrumb">
+    <span onclick="showPage('home')">Home</span> / Contact
+  </div>
+
+  <div class="contact-hero">
+    <p class="section-eyebrow">Get in Touch</p>
+    <h2 class="section-title">Book a <em>Consultation</em></h2>
+    <div class="section-rule"></div>
+  </div>
+
+  <div class="contact-body">
+    <div class="contact-info">
+      <h3>Office Details</h3>
+
+      <div class="info-item">
+        <div class="info-icon">📍</div>
+        <div>
+          <div class="info-label">Office Address</div>
+          <div class="info-value">
+            Chandy Associates<br>
+            2nd Floor, MC Building, Valavi Road<br>
+            Near Town North Police Station<br>
+            Ernakulam, Kochi, Kerala — 682018
+          </div>
+        </div>
+      </div>
+
+      <div class="info-item">
+        <div class="info-icon">📞</div>
+        <div>
+          <div class="info-label">Phone Numbers</div>
+          <div class="info-value">
+            <a href="tel:+919496331348">+91 94963 31348</a><br>
+            <a href="tel:+918086331348">+91 80863 31348</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="info-item">
+        <div class="info-icon">✉️</div>
+        <div>
+          <div class="info-label">Email</div>
+          <div class="info-value">
+            <a href="mailto:basilchandy@gmail.com">basilchandy@gmail.com</a><br>
+            <a href="mailto:advocatebasilchandyvavachan@gmail.com">advocatebasilchandyvavachan@gmail.com</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="info-item">
+        <div class="info-icon">🕐</div>
+        <div>
+          <div class="info-label">Office Hours</div>
+          <div class="info-value">
+            Monday – Saturday<br>
+            10:00 AM – 6:00 PM<br>
+            <span style="font-size:11px;color:var(--text-light);">Appointments recommended</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="info-item">
+        <div class="info-icon">⚖️</div>
+        <div>
+          <div class="info-label">Court</div>
+          <div class="info-value">High Court of Kerala, Ernakulam</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="contact-form-wrap">
+      <h3 class="form-title">Send an Enquiry</h3>
+      <p class="form-sub">Fill in the form below and we will get back to you within 24 hours.</p>
+
+      <div class="form-row">
+        <div class="form-group">
+          <label>First Name</label>
+          <input type="text" id="fname" placeholder="Your first name">
+        </div>
+        <div class="form-group">
+          <label>Last Name</label>
+          <input type="text" id="lname" placeholder="Your last name">
+        </div>
+      </div>
+
+      <div class="form-row">
+        <div class="form-group">
+          <label>Phone Number</label>
+          <input type="tel" id="phone" placeholder="+91 00000 00000">
+        </div>
+        <div class="form-group">
+          <label>Email Address</label>
+          <input type="email" id="email" placeholder="you@email.com">
+        </div>
+      </div>
+
+      <div class="form-group">
+        <label>Area of Law</label>
+        <select id="area">
+          <option value="">Select a practice area</option>
+          <option>Criminal Law</option>
+          <option>Family / Divorce Law</option>
+          <option>Civil Law</option>
+          <option>Writ Petition</option>
+          <option>Cyber / Banking Law</option>
+          <option>Consumer Law</option>
+          <option>Motor Accident Claim</option>
+          <option>Labour / Employment</option>
+          <option>Other</option>
+        </select>
+      </div>
+
+      <div class="form-group">
+        <label>Brief Description of Your Matter</label>
+        <textarea id="message" placeholder="Briefly describe your legal situation (all information is kept strictly confidential)…"></textarea>
+      </div>
+
+      <p class="form-notice">⚖ All information shared is treated with absolute confidentiality. Submitting this form does not constitute legal advice or create an attorney-client relationship.</p>
+
+      <button class="btn-primary" onclick="submitForm()">Submit Enquiry</button>
+
+      <div class="success-msg" id="successMsg">
+        ✅ Thank you for your enquiry. Our office will contact you within 24 hours.
+      </div>
+    </div>
+  </div>
+
+  <div class="map-section">
+    <h3>Find Our Office</h3>
+    <div class="map-embed">
+      <div class="map-placeholder">
+        <div class="map-icon">📍</div>
+        <p><strong>Chandy Associates</strong></p>
+        <p>2nd Floor, MC Building, Valavi Road</p>
+        <p>Near Town North Police Station, Ernakulam</p>
+        <br>
+        <a href="https://maps.google.com/?q=Chandy+Associates+MC+Building+Valavi+Road+Ernakulam" target="_blank">Open in Google Maps →</a>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- ═══════════════ FOOTER ═══════════════ -->
+<footer id="site-footer">
+  <div class="footer-grid">
+    <div class="footer-brand">
+      <div style="display:flex;align-items:center;gap:14px;margin-bottom:12px;">
+        <div class="nav-logo-emblem">B</div>
+        <div>
+          <div class="nav-logo-name">Adv. Basil Chandy Vavachan</div>
+          <div class="nav-logo-sub">Chandy Associates · High Court of Kerala</div>
+        </div>
+      </div>
+      <p>A trusted name in criminal and civil law in Kerala — practising before the High Court and lower courts with dedication, integrity, and expertise.</p>
+    </div>
+
+    <div class="footer-col">
+      <h4>Navigation</h4>
+      <ul>
+        <li><a onclick="showPage('home')">Home</a></li>
+        <li><a onclick="showPage('about')">About</a></li>
+        <li><a onclick="showPage('services')">Practice Areas</a></li>
+        <li><a onclick="showPage('blog')">Legal Insights</a></li>
+        <li><a onclick="showPage('contact')">Contact</a></li>
+      </ul>
+    </div>
+
+    <div class="footer-col">
+      <h4>Practice Areas</h4>
+      <ul>
+        <li><span>Criminal Law</span></li>
+        <li><span>Family & Divorce</span></li>
+        <li><span>Civil Law</span></li>
+        <li><span>Writ Petitions</span></li>
+        <li><span>Consumer Law</span></li>
+        <li><span>Cyber Law</span></li>
+      </ul>
+    </div>
+
+    <div class="footer-col">
+      <h4>Contact</h4>
+      <ul>
+        <li><a href="tel:+919496331348">+91 94963 31348</a></li>
+        <li><a href="tel:+918086331348">+91 80863 31348</a></li>
+        <li><a href="mailto:basilchandy@gmail.com">basilchandy@gmail.com</a></li>
+        <li><span>Ernakulam, Kochi, Kerala</span></li>
+        <li><span>Pin: 682018</span></li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="footer-bottom">
+    <span>© 2025 Advocate Basil Chandy Vavachan — Chandy Associates. All Rights Reserved.</span>
+    <span>KHCAA Member · High Court of Kerala</span>
+  </div>
+</footer>
+
+<!-- SCROLL TO TOP -->
+<button class="scroll-top" id="scrollTop" onclick="window.scrollTo({top:0,behavior:'smooth'})">↑</button>
+
+<script>
+  // ── PAGE ROUTING ──
+  const pages = ['home','about','services','blog','contact'];
+
+  function showPage(name) {
+    pages.forEach(p => {
+      document.getElementById('page-'+p).classList.remove('active');
+    });
+    const target = document.getElementById('page-'+name);
+    if (target) {
+      target.classList.add('active');
+      // Append footer to each page (clone approach)
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+    }
+  }
+
+  // ── NAV SCROLL ──
+  window.addEventListener('scroll', () => {
+    const nav = document.getElementById('navbar');
+    if (window.scrollY > 60) nav.classList.add('scrolled');
+    else nav.classList.remove('scrolled');
+
+    const btn = document.getElementById('scrollTop');
+    if (window.scrollY > 400) btn.classList.add('visible');
+    else btn.classList.remove('visible');
+  });
+
+  // ── MOBILE MENU ──
+  let mobileOpen = false;
+  function toggleMobile() {
+    mobileOpen = !mobileOpen;
+    const menu = document.getElementById('mobileMenu');
+    menu.classList.toggle('open', mobileOpen);
+  }
+
+  // ── FORM SUBMIT ──
+  function submitForm() {
+    const fields = ['fname','lname','phone','email','area','message'];
+    let valid = true;
+    fields.forEach(id => {
+      const el = document.getElementById(id);
+      if (!el.value.trim()) {
+        el.style.borderColor = '#e05c5c';
+        valid = false;
+      } else {
+        el.style.borderColor = '';
+      }
+    });
+    if (!valid) return;
+
+    const msg = document.getElementById('successMsg');
+    msg.style.display = 'block';
+
+    // Reset form
+    fields.forEach(id => document.getElementById(id).value = '');
+    setTimeout(() => msg.style.display = 'none', 6000);
+  }
+
+  // ── FOOTER IN ALL PAGES ──
+  // Footer is rendered once at bottom, shown persistently
+</script>
+
+</body>
+</html>
